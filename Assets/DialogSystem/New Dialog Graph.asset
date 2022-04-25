@@ -1,0 +1,380 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6222619330212894773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 850366e69f434b0fa4013153c9bb5305, type: 3}
+  m_Name: Dialog Box
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -792, y: -424}
+  ports:
+    keys:
+    - currentText
+    - options
+    - options 0
+    values:
+    - _fieldName: currentText
+      _node: {fileID: -6222619330212894773}
+      _typeQualifiedName: LangBoxType, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: options 0
+        node: {fileID: 1065259265306848482}
+        reroutePoints: []
+      - fieldName: options 0
+        node: {fileID: 3829153734064845174}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: options
+      _node: {fileID: -6222619330212894773}
+      _typeQualifiedName: System.Collections.Generic.List`1[[LangBoxType, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0,
+        Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: options 0
+      _node: {fileID: -6222619330212894773}
+      _typeQualifiedName: LangBoxType, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: currentText
+        node: {fileID: 7674325941350822751}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  currentText: {fileID: 11400000, guid: f61f7886077f3d1429b7251830e40f73, type: 2}
+  options:
+  - {fileID: 11400000, guid: 1fba5c13d407ffc469f2a7886b00a846, type: 2}
+--- !u!114 &-2849183377509523920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 850366e69f434b0fa4013153c9bb5305, type: 3}
+  m_Name: Dialog Box
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -776, y: -56}
+  ports:
+    keys:
+    - currentText
+    - options
+    - options 0
+    - options 1
+    values:
+    - _fieldName: currentText
+      _node: {fileID: -2849183377509523920}
+      _typeQualifiedName: LangBoxType, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: options 1
+        node: {fileID: 1065259265306848482}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: options
+      _node: {fileID: -2849183377509523920}
+      _typeQualifiedName: System.Collections.Generic.List`1[[LangBoxType, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0,
+        Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: options 0
+      _node: {fileID: -2849183377509523920}
+      _typeQualifiedName: LangBoxType, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: currentText
+        node: {fileID: 3829153734064845174}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: options 1
+      _node: {fileID: -2849183377509523920}
+      _typeQualifiedName: LangBoxType, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: currentText
+        node: {fileID: -1558885459560197163}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  currentText: {fileID: 11400000, guid: 8a21d8c554667c946969d19940031604, type: 2}
+  options:
+  - {fileID: 11400000, guid: a15ae804b8209f449952a7362775d3ec, type: 2}
+  - {fileID: 11400000, guid: 2d2684b531d31ef46a50c0fe4bcb8850, type: 2}
+--- !u!114 &-1558885459560197163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 850366e69f434b0fa4013153c9bb5305, type: 3}
+  m_Name: Dialog Box
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -392, y: 248}
+  ports:
+    keys:
+    - currentText
+    - options
+    - options 0
+    values:
+    - _fieldName: currentText
+      _node: {fileID: -1558885459560197163}
+      _typeQualifiedName: LangBoxType, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: options 1
+        node: {fileID: -2849183377509523920}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: options
+      _node: {fileID: -1558885459560197163}
+      _typeQualifiedName: System.Collections.Generic.List`1[[LangBoxType, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0,
+        Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: options 0
+      _node: {fileID: -1558885459560197163}
+      _typeQualifiedName: LangBoxType, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: currentText
+        node: {fileID: 1065259265306848482}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  currentText: {fileID: 11400000, guid: e7401bc44f4c8ed49a008a00d7dff99c, type: 2}
+  options:
+  - {fileID: 11400000, guid: 149d503aad43f2b40954a9736ffeca03, type: 2}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2044c32af4c178b4e977038d1c3534b4, type: 3}
+  m_Name: New Dialog Graph
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 1065259265306848482}
+  - {fileID: -6222619330212894773}
+  - {fileID: -2849183377509523920}
+  - {fileID: 7674325941350822751}
+  - {fileID: 3829153734064845174}
+  - {fileID: -1558885459560197163}
+--- !u!114 &1065259265306848482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 850366e69f434b0fa4013153c9bb5305, type: 3}
+  m_Name: Dialog Box
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1176, y: -280}
+  ports:
+    keys:
+    - currentText
+    - options
+    - options 0
+    - options 1
+    values:
+    - _fieldName: currentText
+      _node: {fileID: 1065259265306848482}
+      _typeQualifiedName: LangBoxType, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: options 0
+        node: {fileID: -1558885459560197163}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: options
+      _node: {fileID: 1065259265306848482}
+      _typeQualifiedName: System.Collections.Generic.List`1[[LangBoxType, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0,
+        Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: options 0
+      _node: {fileID: 1065259265306848482}
+      _typeQualifiedName: LangBoxType, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: currentText
+        node: {fileID: -6222619330212894773}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: options 1
+      _node: {fileID: 1065259265306848482}
+      _typeQualifiedName: LangBoxType, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: currentText
+        node: {fileID: -2849183377509523920}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  currentText: {fileID: 11400000, guid: 9a2a81db064c5b84394a27834c35f65f, type: 2}
+  options:
+  - {fileID: 11400000, guid: 9105bbb2e3e5e6747abc86070ced2f85, type: 2}
+  - {fileID: 11400000, guid: d39d8f2d3e8e6bf478247c9361e922c2, type: 2}
+--- !u!114 &3829153734064845174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 850366e69f434b0fa4013153c9bb5305, type: 3}
+  m_Name: Dialog Box
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -392, y: -56}
+  ports:
+    keys:
+    - currentText
+    - options
+    - options 0
+    values:
+    - _fieldName: currentText
+      _node: {fileID: 3829153734064845174}
+      _typeQualifiedName: LangBoxType, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: options 0
+        node: {fileID: -2849183377509523920}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: options
+      _node: {fileID: 3829153734064845174}
+      _typeQualifiedName: System.Collections.Generic.List`1[[LangBoxType, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0,
+        Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: options 0
+      _node: {fileID: 3829153734064845174}
+      _typeQualifiedName: LangBoxType, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: currentText
+        node: {fileID: -6222619330212894773}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  currentText: {fileID: 11400000, guid: b89ac2cedb512d34a8d354999de13af6, type: 2}
+  options:
+  - {fileID: 11400000, guid: 8b16e25817f7cca4d88996c4f1eed7e6, type: 2}
+--- !u!114 &7674325941350822751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 850366e69f434b0fa4013153c9bb5305, type: 3}
+  m_Name: Dialog Box
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -328, y: -328}
+  ports:
+    keys:
+    - currentText
+    - options
+    values:
+    - _fieldName: currentText
+      _node: {fileID: 7674325941350822751}
+      _typeQualifiedName: LangBoxType, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: options 0
+        node: {fileID: -6222619330212894773}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: options
+      _node: {fileID: 7674325941350822751}
+      _typeQualifiedName: System.Collections.Generic.List`1[[LangBoxType, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0,
+        Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  currentText: {fileID: 11400000, guid: d29b04ef6eeccab42b1918976d4b257d, type: 2}
+  options: []
